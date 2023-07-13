@@ -1,6 +1,6 @@
 # The Manifesto
 
-#### The Activity Based Modeling Manifesto – a Call to Action: ‘Adopting an activity-based paradigm in order to better address the resource challenges faced by societies’.
+**A Call to Action: Adopting an activity-based paradigm in order to better address the resource challenges faced by societies**
 
 ## Policy Challenge
 
