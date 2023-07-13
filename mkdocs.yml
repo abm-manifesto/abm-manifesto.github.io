@@ -158,9 +158,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - The Manifesto:
-      - Introduction: getting-started.md
-      - What's wrong with current thinking: getting-started.md
-      - What distinguishes activity models: getting-started.md
+      - Introduction: the-manifesto.md
   - For modelers:
       - setup/index.md
       - Changing the colors: setup/changing-the-colors.md
