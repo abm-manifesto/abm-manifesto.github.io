@@ -23,11 +23,11 @@ site_name: Activity Based Modeling Manifesto
 site_url: https://billyc.github.io/abm-manifesto/
 site_author: Billy Charlton
 site_description: >-
-  We will drive a stake into the heart of tradition four-step models, kill them, and keep them dead.
+  We will drive a stake into the heart of traditional four-step models, kill them, and keep them dead.
 
 # Repository
-repo_name: billyc/abm-manifesto
-repo_url: https://github.com/billyc/abm-manifesto
+# repo_name: billyc/abm-manifesto
+# repo_url: https://github.com/billyc/abm-manifesto
 
 # Copyright
 copyright: Copyright &copy; 2023 Dangerous Minds
@@ -64,15 +64,15 @@ theme:
     - scheme: default
       primary: indigo
       accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+      # toggle:
+      #   icon: material/brightness-7
+      #   name: Switch to dark mode
     - scheme: slate
       primary: indigo
       accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+      # toggle:
+      #   icon: material/brightness-4
+      #   name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
@@ -157,29 +157,11 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Getting started:
-      - Installation: getting-started.md
-      - Creating your site: creating-your-site.md
-      - Publishing your site: publishing-your-site.md
-      - Customization: customization.md
-      - Browser support: browser-support.md
-      - Philosophy: philosophy.md
-      - Alternatives: alternatives.md
-      - License: license.md
-      - Changelog:
-          - changelog/index.md
-          - How to upgrade: upgrade.md
-      - Contributing:
-          - contributing/index.md
-          - Reporting a bug: contributing/reporting-a-bug.md
-          - Reporting a docs issue: contributing/reporting-a-docs-issue.md
-          - Requesting a change: contributing/requesting-a-change.md
-          - Asking a question: https://github.com/squidfunk/mkdocs-material/discussions
-      - Guides:
-          - Creating a reproduction: guides/creating-a-reproduction.md
-      - FAQ:
-          - Sponsoring: faq/sponsoring.md
-  - Setup:
+  - The Manifesto:
+      - Introduction: getting-started.md
+      - What's wrong with current thinking: getting-started.md
+      - What distinguishes activity models: getting-started.md
+  - For modelers:
       - setup/index.md
       - Changing the colors: setup/changing-the-colors.md
       - Changing the fonts: setup/changing-the-fonts.md
@@ -205,34 +187,13 @@ nav:
           - Python Markdown Extensions: setup/extensions/python-markdown-extensions.md
       - Dependencies:
           - setup/dependencies/image-processing.md
-  - Reference:
-      - reference/index.md
-      - Admonitions: reference/admonitions.md
-      - Annotations: reference/annotations.md
-      - Buttons: reference/buttons.md
-      - Code blocks: reference/code-blocks.md
-      - Content tabs: reference/content-tabs.md
-      - Data tables: reference/data-tables.md
-      - Diagrams: reference/diagrams.md
-      - Footnotes: reference/footnotes.md
-      - Formatting: reference/formatting.md
-      - Grids: reference/grids.md
-      - Icons, Emojis: reference/icons-emojis.md
-      - Images: reference/images.md
-      - Lists: reference/lists.md
-      - Math: reference/math.md
-      - Tooltips: reference/tooltips.md
-  - Insiders:
+  - About us:
       - insiders/index.md
       - Getting started:
           - Installation: insiders/getting-started.md
           - Changelog: insiders/changelog.md
-  - Blog:
+  - News:
       - blog/index.md
-      - 2022:
-          - blog/posts/blog-support-just-landed.md
-          - blog/posts/chinese-search-support.md
-      - 2021:
-          - blog/posts/the-past-present-and-future.md
-          - blog/posts/excluding-content-from-search.md
-          - blog/posts/search-better-faster-smaller.md
+      - 2023:
+          - blog/posts/we-got-published-in-nature.md
+          - blog/posts/the-manifest-is-live.md
