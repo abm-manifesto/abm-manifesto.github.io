@@ -1,6 +1,4 @@
 ---
 template: home.html
-title: Material for MkDocs
+title: ""
 ---
-
-Welcome to Material for MkDocs.
