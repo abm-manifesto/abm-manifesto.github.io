@@ -159,8 +159,8 @@ nav:
   - Home: index.md
   - The Manifesto:
       - Introduction: the-manifesto.md
+      - Concept of Continuum: concept-of-continuum.md
       - Elements of Activity Based Models: elements-of-abms.md
-      - Concepts of Continuum: concepts-of-continuum.md
   - For transport analysis: for-modelers.md
   - About us: about-us.md
   - News:
