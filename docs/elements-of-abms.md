@@ -3,9 +3,9 @@
 At their core, Activity-Based Models provide an abstract representation of:
 
 - The behavior of people by representing those people as **agents**. They may also represent households, vehicles, buildings, or other elements as agents in the simulation.
-- The **activities **in which each person participates. Those activities can include working, shopping, socializing, sleeping, or other actions that fulfill the person’s needs, wants and roles.
-- The **location **at which each activity occurs.
-- The **time **at which each activity occurs.
+- The **activities** in which each person participates. Those activities can include working, shopping, socializing, sleeping, or other actions that fulfill the person’s needs, wants and roles.
+- The **location** at which each activity occurs.
+- The **time** at which each activity occurs.
 - The interaction of the above elements with an **infrastructure network**, as well as associated resources and policies.
 
 Taken together, these five elements provide a framework that is both simple to explain and powerful in its capacity to provide insight into the workings of inter-connected systems in several domains. To date, ABMs have been used most extensively within the transport sector. In this context, they are used to predict the trips that occur between activities at different locations, as a derived demand from the desire to participate in those activities. This framework allows the cost of those trips – both to the user and to society in the form of congestion, emissions and noise – to be weighed against the value of participating in those activities. ABMs can also provide the framework to understand the demands imposed on other sectors, such as the electrical and water networks, based on how people use those resources, a means of understanding peoples’ exposure to health risks within their environment, and how their activities relate to consumer spending.
@@ -33,22 +33,24 @@ The core framework of an activity-based approach puts human needs and the result
 In this manner, extensions of the activity-based model can be developed to address a wide range of policy questions. For example,
 
 - What are the impacts of air pollution on mortality or disease status, and what are the key contributors to this? This can be determined by evaluating the health exposures of agents over the course of the day or week, not only during transport but also while performing activities (e.g. physical activity while cycling, noise pollution at home or air pollution at school). Accordingly, this will require an additional component that can translate exposures over a long period into health implications.
+
 - How will epidemics spread through a community? This can be achieved by linking the model of human activity with travel patterns on transport network, and extending it further to model how diseases spread with exposure in different conditions while traveling and at the destinations.
+
 - To what extent can electric vehicles support renewables in the electricity generation mix, with the use of vehicle to grid technology?
+
 - What are the potential impacts of price signals on the timing and scheduling of consumption activities? (this could apply to energy or transport or any other resource) Appropriate characterisation and modelling of the ‘time’ component of human activities can address this question.
+
 - How do personal and social networks impact individual activity patterns and what are the implications of this for resource consumption and wellbeing? This will require appropriate characterisation and modelling of the ‘agent’ component in a manner that allows for interactions between them.
 
-Figure x illustrates how the core activity-based model can be extended to consider different infrastructures or combinations of infrastructures, thus supporting more comprehensive appraisals of policies that impact multiple integrated infrastructures. Suggestions for what these extensions may comprise follow.
+Figure X illustrates how the core activity-based model can be extended to consider different infrastructures or combinations of infrastructures, thus supporting more comprehensive appraisals of policies that impact multiple integrated infrastructures. Suggestions for what these extensions may comprise follow.
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+![ABM extensions](images/abm-extensions.png "ABM Extensions")
 
-![alt_text](images/image1.png "image_tooltip")
+**Transport** extension: this could go into more detail about transport mode and route choice, and might include goods and services delivered to the home (e.g. parcel deliveries and home care) in lieu of shopping trips, or perhaps in addition to shopping trips that are now used to scope out the available products in the market so that more targeted trips to specific shops will suffice. Compared to the traditional trip and tour-based paradigms used for transport planning and policy, this would enable in-home/ out-of-home activity trade-offs to be considered, as well as trip consolidation through multiple activities being carried out at the same location (e.g. a mall with shops, cinemas, restaurants etc). Induced demand could also be considered, as response to decreased congestion or increased access. This is explored further in Part Two.
 
-**Transport **extension: this could go into more detail about transport mode and route choice, and might include goods and services delivered to the home (e.g. parcel deliveries and home care) in lieu of shopping trips, or perhaps in addition to shopping trips that are now used to scope out the available products in the market so that more targeted trips to specific shops will suffice. Compared to the traditional trip and tour-based paradigms used for transport planning and policy, this would enable in-home/ out-of-home activity trade-offs to be considered, as well as trip consolidation through multiple activities being carried out at the same location (e.g. a mall with shops, cinemas, restaurants etc). Induced demand could also be considered, as response to decreased congestion or increased access. This is explored further in Part Two.
+**Health** extension: this could develop in several ways. First, by knowing the duration of time spent at different locations, and while travelling, it becomes possible to estimate better rates of exposure to health-harming conditions, such as air and noise pollution, or risk of collisions, or crime exposure. Second, health benefits of physical activity can be attributed to various travel and non-travel activities. Third, mental health benefits could be estimated, by measuring time spent out of doors, in green and blue spaces, and socially interacting with others.
 
-**Health **extension: this could develop in several ways. First, by knowing the duration of time spent at different locations, and while travelling, it becomes possible to estimate better rates of exposure to health-harming conditions, such as air and noise pollution, or risk of collisions, or crime exposure. Second, health benefits of physical activity can be attributed to various travel and non-travel activities. Third, mental health benefits could be estimated, by measuring time spent out of doors, in green and blue spaces, and socially interacting with others.
-
-**Energy **extension: this could focus on identifying energy consumption associated with the facilities used to undertake activities including lighting, heating, cooking and the use of machinery and devices, to assess overall energy demand profiles. By determining the fuel source of the energy used (including the prime source of electricity generation), it then becomes possible to estimate total carbon emissions and – by auditing the use of facilities and tools – to include the embedded carbon used in their construction. It also provides opportunities to look at trade-offs between sectors; for example, is it less energy intensive to work from home or travel to work, taking all sources of emissions into account. The energy extension could also explicitly link transport and energy infrastructures by introducing charging infrastructure and networks that represent the electricity demand generated from the charging and discharging activities of electric vehicle ‘agents’.
+**Energy** extension: this could focus on identifying energy consumption associated with the facilities used to undertake activities including lighting, heating, cooking and the use of machinery and devices, to assess overall energy demand profiles. By determining the fuel source of the energy used (including the prime source of electricity generation), it then becomes possible to estimate total carbon emissions and – by auditing the use of facilities and tools – to include the embedded carbon used in their construction. It also provides opportunities to look at trade-offs between sectors; for example, is it less energy intensive to work from home or travel to work, taking all sources of emissions into account. The energy extension could also explicitly link transport and energy infrastructures by introducing charging infrastructure and networks that represent the electricity demand generated from the charging and discharging activities of electric vehicle ‘agents’.
 
 Other Extensions are also possible, including:
 
@@ -56,9 +58,9 @@ Identifying other types of resource consumption associated with activity pattern
 
 - Measuring consumer expenditure patterns
 
-  · Identifying wider impacts of digitisation on daily/weekly activity patterns
+  - Identifying wider impacts of digitisation on daily/weekly activity patterns
 
-  · Examining the (currently unrecognised) impacts of decisions taken in one sector, on others – for example:
+  - Examining the (currently unrecognised) impacts of decisions taken in one sector, on others – for example:
 
 <table>
   <tr>
