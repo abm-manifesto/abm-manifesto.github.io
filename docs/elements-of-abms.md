@@ -44,7 +44,7 @@ In this manner, extensions of the activity-based model can be developed to addre
 
 Figure X illustrates how the core activity-based model can be extended to consider different infrastructures or combinations of infrastructures, thus supporting more comprehensive appraisals of policies that impact multiple integrated infrastructures. Suggestions for what these extensions may comprise follow.
 
-![ABM extensions](images/abm-extensions.png "ABM Extensions")
+![ABM extensions](assets/images/abm-extensions.png "ABM Extensions")
 
 **Transport** extension: this could go into more detail about transport mode and route choice, and might include goods and services delivered to the home (e.g. parcel deliveries and home care) in lieu of shopping trips, or perhaps in addition to shopping trips that are now used to scope out the available products in the market so that more targeted trips to specific shops will suffice. Compared to the traditional trip and tour-based paradigms used for transport planning and policy, this would enable in-home/ out-of-home activity trade-offs to be considered, as well as trip consolidation through multiple activities being carried out at the same location (e.g. a mall with shops, cinemas, restaurants etc). Induced demand could also be considered, as response to decreased congestion or increased access. This is explored further in Part Two.
 
